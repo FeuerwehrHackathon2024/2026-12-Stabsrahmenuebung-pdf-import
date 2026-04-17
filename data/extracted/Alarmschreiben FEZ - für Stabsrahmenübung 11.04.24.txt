@@ -1,0 +1,72 @@
+Alarmschreiben
+Feuerwehreinsatzzentrale München Land
+Telefon: +49 (89) 6221-2303 Telefax: +49 (89) 6221-2805
+_____________________________________________________________________________
+Einsatznr: A 7.7 240402 33 Alarm:
+_____________________________________________________________________________
+Mitteiler: Hr. Testmann
+Einsatzort:
+Straße: 1.4.2 M-L Bahnstrecke S2 München - Erding 10.2
+Abschnitt: Bl S2 KM 8,5 - 10,2 Ortsgrenze Feldkirchen <> Bahnhof Feldkirchen
+Kreuzung:
+Ortsteil/Ort: in -- Default ORT ---
+Koordinaten: GK4 X:4480109.83 GK4 Y:5334854.97
+Objekt: 1.4.2 M-L S-Bhf Feldkirchen
+Einsatzplan:
+Sprechgruppe: FW_SoG_1_M# (2615)
+_____________________________________________________________________________
+Meldebild: #A1817#Gefahrstoff#THL VU Chemie Zug
+_____________________________________________________________________________
+Hinweis:
+>> Achtung Gefahr - Oberleitung beschädigt - Gleissperrung und Abschaltung steht noch aus <<
+Zwei Züge betroffen, Tankwagen entgleist. Unbekannter Stoff tritt aus. Etliche Personen verletzt.
+>> Achtung Bahnhofstr. für Abfahrten freihalten <<
+VR FW: FF Feldkrichen - Richthofenstr.
+VR FW: Rest FW - Aschheimerstr. (B471) / Seestr.
+VR RD: Hohenlindnerstr. / Sonnenstr.
+_____________________________________________________________________________
+_____________________________________________________________________________
+Geforderte Einsatzmittel bzw. Ausrüstung:
+Florian Feldkirchen
+Florian Feldkirchen 40/1
+Florian Feldkirchen 61/1
+Florian Heimstetten 40/1
+Florian Heimstetten 40/2
+Florian Weißenfeld 44/1
+Kater München Land 52/1
+Kater München Land 66/1
+
+-- 1 of 2 --
+
+Kater München Land 67/1
+Florian München Land 1
+Florian München Land 3/2
+1.4.2 M-L ELW 2 Landkreis München
+Florian München Land 13/1
+Florian München Land 13/2 AB-EL
+Florian München Land 36/1
+Florian München Land 1/6
+UG-ELW Süd
+UG-ELW Nord
+Florian München Land 1/5
+Florian München Land 2/2
+Heros München Land 86/21
+Heros München Land 22/51
+FüGK Ansprechpartner Gruppenruf
+Florian München Land 3/3
+Leitstelle Florian München Land 3
+Florian Feldkirchen A-P 250 Löschpulver ABC {kg}
+Florian Aschheim 40/1
+Florian Feldkirchen 33/1
+Florian Aschheim 40/2
+Heros Mü Land 86/1
+Heros München Land 86/91
+Florian Ottobrunn Rüstsatz Bahn
+(Alarmschreiben Ende)
+_____________________________________________________________________________
+Auch bei Erhalt des Alarmschreibens den EINSATZORT über Funk bestätigen!
+Das Alarmschreiben darf nur zum internen Dienstgebrauch verwendet werden.
+Es ist sicherzustellen, dass Unbefugte keinen Zugang zu den übermittelten Daten erhalten.
+
+-- 2 of 2 --
+
