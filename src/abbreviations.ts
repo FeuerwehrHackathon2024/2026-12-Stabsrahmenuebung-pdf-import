@@ -20,7 +20,7 @@ export function expandAbbreviationsInFreeformText(text: string): string {
   let expandedText = text;
   for (const [abbreviation, expansions] of Object.entries(db)) {
     for (const expansion of expansions) {
-      expandedText = expandedText.replaceAll(abbreviation, expansion);
+      expandedText = expandedText.replaceAll(expansion, abbreviation);
     }
   }
   return expandedText;
