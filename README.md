@@ -15,7 +15,14 @@ HTTP 200 OK
         "Florian Berlin 10/01",
         "Kater München Land 67/1",
         "..."
-    ]
+    ],
+    "location": {
+        "address": "",
+        "coordinates": {
+            "latitude": null,
+            "longitude": null
+        }
+    }
 }
 ```
 

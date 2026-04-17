@@ -1,6 +1,6 @@
 import ollama from "ollama";
 import { expandAbbreviationsInFreeformText } from "./abbreviations";
-import { completion } from "../test";
+import { completion } from "./llm";
 
 const systemPrompt = await Bun.file("./prompts/system.md").text();
 const unitExtractionPrompt = await Bun.file(
