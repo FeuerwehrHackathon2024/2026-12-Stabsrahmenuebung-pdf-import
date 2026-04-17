@@ -26,5 +26,5 @@ HTTP 200 OK
 | `PORT`              | The port on which the server will listen.                                           | `3000`                      | No       |
 | `NODE_ENV`          | The environment in which the server is running (e.g., "development", "production"). | `development`               | No       |
 | `OPENAI_BASE_URL`   | The base URL for the OpenAI API.                                                    | `http://localhost:11434/v1` | No       |
-| `OPENAI_API_KEY`    | The API key for authenticating with the OpenAI API.                                 | None                        | Yes      |
+| `OPENAI_API_KEY`    | The API key for authenticating with the OpenAI API.                                 | None                        | No       |
 | `OPENAI_MODEL_NAME` | The name of the OpenAI model to use for processing.                                 | `llama3:8b-instruct-q4_K_M` | No       |
