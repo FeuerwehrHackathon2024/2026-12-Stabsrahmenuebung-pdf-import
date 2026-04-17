@@ -82,11 +82,11 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT || 22 }}
-          envs: IMAGE,DOMAIN,REGISTRY,DEPLOY_PATH,OPENAI_BASE_URL,OPENAI_API_KEY,OPENAI_MODEL_NAME,OPENAI_USER,OPENAI_PASS
+          envs: IMAGE,DOMAIN,REGISTRY,DEPLOY_PATH,OPENAI_API_BASE_URL,OPENAI_API_KEY,OPENAI_MODEL_NAME,OPENAI_USER,OPENAI_PASS
           script: |
             set -euo pipefail
             cd "$DEPLOY_PATH"
-            export IMAGE DOMAIN OPENAI_BASE_URL OPENAI_API_KEY OPENAI_MODEL_NAME OPENAI_USER OPENAI_PASS
+            export IMAGE DOMAIN OPENAI_API_BASE_URL OPENAI_API_KEY OPENAI_MODEL_NAME OPENAI_USER OPENAI_PASS
             docker compose pull
             docker compose up -d --remove-orphans
         env:
@@ -94,7 +94,7 @@ jobs:
           DOMAIN: ${{ secrets.DOMAIN }}
           REGISTRY: ${{ env.REGISTRY }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_API_BASE_URL: ${{ secrets.OPENAI_API_BASE_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL_NAME: ${{ secrets.OPENAI_MODEL_NAME }}
           OPENAI_USER: ${{ secrets.OPENAI_USER }}
