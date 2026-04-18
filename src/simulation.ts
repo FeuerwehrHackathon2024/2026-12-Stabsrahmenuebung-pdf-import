@@ -72,7 +72,7 @@ export async function sendTargetToApi(target: [number, number]) {
     // id: Bun.randomUUIDv7(),
     geometry: {
       type: "Point",
-      coordinates: target,
+      coordinates: [target[1], target[0]], // GeoJSON format is [longitude, latitude]
     },
     properties: {
       name: "E-Stelle",
