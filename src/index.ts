@@ -53,6 +53,13 @@ app.post("/alarm", async (c) => {
       .map((coord) => parseFloat(coord.trim())) as any,
   );
 
+  await sendVehiclesToApi(
+    parsedAlarm?.vehicles! as any,
+    parsedAlarm?.location.coords
+      .split(",")
+      .map((coord) => parseFloat(coord.trim())) as any,
+  );
+
   await sendTargetToApi(
     parsedAlarm?.location.coords
       .split(",")
