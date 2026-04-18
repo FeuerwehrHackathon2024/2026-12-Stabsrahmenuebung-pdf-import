@@ -1,0 +1,275 @@
+{
+    "vehicles": [
+        {
+            "frn": "Kater München Land 67/1",
+            "organization": "Kater",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "ABC-ErkKW",
+            "symbol": "Katastrophenschutz_Fahrzeuge/ABC_Erkundungskraftwagen.svg"
+        },
+        {
+            "frn": "Kater München Land 66/1",
+            "organization": "Kater",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "GW-Dekon P",
+            "symbol": "Katastrophenschutz_Fahrzeuge/Geraetewagen_Dekon_P.svg"
+        },
+        {
+            "frn": "Kater München Land 52/1",
+            "organization": "Kater",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "RW 2",
+            "symbol": "Feuerwehr_Fahrzeuge/Ruestwagen.svg"
+        },
+        {
+            "frn": "Heros München Land 86/91",
+            "organization": "Heros",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "BRmG",
+            "symbol": "THW_Fahrzeuge/Bergungsraeumgeraet.svg"
+        },
+        {
+            "frn": "Heros München Land 86/21",
+            "organization": "Heros",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "LKW-Kipper",
+            "symbol": "THW_Fahrzeuge/Kipper.svg"
+        },
+        {
+            "frn": "Heros München Land 22/51",
+            "organization": "Heros",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "MzGW",
+            "symbol": "THW_Fahrzeuge/MzGW.svg"
+        },
+        {
+            "frn": "Heros Mü Land 86/1",
+            "organization": "Heros",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "MTW",
+            "symbol": "THW_Fahrzeuge/MTW.svg"
+        },
+        {
+            "frn": "Florian München Land 36/1",
+            "organization": "Florian",
+            "spawn_point": "Ottobrunn",
+            "strength": "0/0/0/0",
+            "vehicleType": "WLF",
+            "symbol": "Feuerwehr_Fahrzeuge/Wechselladerfahrzeug.svg"
+        },
+        {
+            "frn": "Florian München Land 13/2 AB Einsatzleitung",
+            "organization": "Florian",
+            "spawn_point": "Ottobrunn",
+            "strength": "0/0/0/0",
+            "vehicleType": "AB-Einsatzleitung",
+            "symbol": "Feuerwehr_Fahrzeuge/Abrollbehaelter_Container.svg"
+        },
+        {
+            "frn": "Florian München Land 13/1",
+            "organization": "Florian",
+            "spawn_point": "Landkreis München",
+            "strength": "0/0/0/0",
+            "vehicleType": "ELW 2",
+            "symbol": "Feuerwehr_Fahrzeuge/ELW_2.svg"
+        },
+        {
+            "frn": "FL Ottobrunn Rüstsatz Bahn",
+            "organization": "Florian",
+            "spawn_point": "Ottobrunn",
+            "strength": "0/0/0/0",
+            "vehicleType": "Rüstsatz Bahn",
+            "symbol": "Feuerwehr_Fahrzeuge/Abrollbehaelter_Container.svg"
+        },
+        {
+            "frn": "FL München Land 3/3",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL München Land 3/2",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL München Land 2/2",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL München Land 1/6",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL München Land 1/5",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL München Land 1",
+            "organization": "Florian",
+            "spawn_point": "München Land",
+            "strength": "0/0/0/0",
+            "vehicleType": "KdoW",
+            "symbol": "Feuerwehr_Fahrzeuge/Kommandowagen.svg"
+        },
+        {
+            "frn": "FL Heimstetten 40/2",
+            "organization": "Florian",
+            "spawn_point": "Heimstetten",
+            "strength": "0/0/0/0",
+            "vehicleType": "HLF",
+            "symbol": "Feuerwehr_Fahrzeuge/HLF.svg"
+        },
+        {
+            "frn": "FL Heimstetten 40/1",
+            "organization": "Florian",
+            "spawn_point": "Heimstetten",
+            "strength": "0/0/0/0",
+            "vehicleType": "HLF",
+            "symbol": "Feuerwehr_Fahrzeuge/HLF.svg"
+        },
+        {
+            "frn": "FL Feldkirchen 61/1",
+            "organization": "Florian",
+            "spawn_point": "Feldkirchen",
+            "strength": "0/0/0/0",
+            "vehicleType": "SW",
+            "symbol": "Feuerwehr_Fahrzeuge/Schlauchwagen.svg"
+        },
+        {
+            "frn": "FL Feldkirchen 40/1",
+            "organization": "Florian",
+            "spawn_point": "Feldkirchen",
+            "strength": "0/0/0/0",
+            "vehicleType": "HLF",
+            "symbol": "Feuerwehr_Fahrzeuge/HLF.svg"
+        },
+        {
+            "frn": "FL Feldkirchen 33/1",
+            "organization": "Florian",
+            "spawn_point": "Feldkirchen",
+            "strength": "0/0/0/0",
+            "vehicleType": "DLK",
+            "symbol": "Feuerwehr_Fahrzeuge/Drehleiter_mit_Korb.svg"
+        },
+        {
+            "frn": "FL Feldkirchen Pulverlösch-A 250",
+            "organization": "Florian",
+            "spawn_point": "Feldkirchen",
+            "strength": "0/0/0/0",
+            "vehicleType": "PG 250 Anhänger",
+            "symbol": "Feuerwehr_Fahrzeuge/Feuerwehranhaenger.svg"
+        },
+        {
+            "frn": "FL Aschheim 40/2",
+            "organization": "Florian",
+            "spawn_point": "Aschheim",
+            "strength": "0/0/0/0",
+            "vehicleType": "HLF",
+            "symbol": "Feuerwehr_Fahrzeuge/HLF.svg"
+        },
+        {
+            "frn": "FL Aschheim 40/1",
+            "organization": "Florian",
+            "spawn_point": "Aschheim",
+            "strength": "0/0/0/0",
+            "vehicleType": "HLF",
+            "symbol": "Feuerwehr_Fahrzeuge/HLF.svg"
+        },
+        {
+            "frn": "FL Weißenfeld 44/1",
+            "organization": "Florian",
+            "spawn_point": "Weißenfeld",
+            "strength": "0/0/0/0",
+            "vehicleType": "TSF",
+            "symbol": "Feuerwehr_Fahrzeuge/Loeschfahrzeug.svg"
+        }
+    ],
+    "locations": [
+        {
+            "name": "Ottobrunn",
+            "coords": "48.06035391754033, 11.667955132795134"
+        },
+        {
+            "name": "Feldkirchen",
+            "coords": "48.144925875387116, 11.72669487216267"
+        },
+        {
+            "name": "Weißenfeld",
+            "coords": "48.13404139108244, 11.762945298364617"
+        },
+        {
+            "name": "Aschheim",
+            "coords": "48.17456654014914, 11.71229116185447"
+        },
+        {
+            "name": "Heimstetten",
+            "coords": "48.15633994422744, 11.75995015614682"
+        },
+        {
+            "name": "München Land",
+            "coords": "48.13968044482458, 11.572700512587614"
+        },
+        {
+            "name": "München Stadt",
+            "coords": "48.13968044482458, 11.572700512587614"
+        }
+    ],
+    "alarm_cache": {
+        "12998425549868934417": {
+            "vehicles": [
+                "Kater München Land 67/1",
+                "Kater München Land 66/1",
+                "Kater München Land 52/1",
+                "Heros München Land 86/91",
+                "Heros München Land 86/21",
+                "Heros München Land 22/51",
+                "Florian München Land 36/1",
+                "Florian München Land 13/2 AB Einsatzleitung",
+                "Florian München Land 13/1",
+                "FL Ottobrunn Rüstsatz Bahn",
+                "FL München Land 3/3",
+                "FL München Land 3/2",
+                "FL München Land 2/2",
+                "FL München Land 1/6",
+                "FL München Land 1/5",
+                "FL München Land 1",
+                "FL Heimstetten 40/2",
+                "FL Heimstetten 40/1",
+                "FL Feldkirchen 61/1",
+                "FL Feldkirchen 40/1",
+                "FL Feldkirchen 33/1",
+                "FL Aschheim 40/2",
+                "FL Aschheim 40/1",
+                "FL Weißenfeld 44/1"
+            ],
+            "location": {
+                "coords": "4480109.83, 5334854.97"
+            }
+        }
+    }
+}

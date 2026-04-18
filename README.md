@@ -28,10 +28,11 @@ HTTP 200 OK
 
 ## Environment Variables
 
-| Variable Name        | Description                                                                         | Default Value               | Required |
-| -------------------- | ----------------------------------------------------------------------------------- | --------------------------- | -------- |
-| `PORT`               | The port on which the server will listen.                                           | `3000`                      | No       |
-| `NODE_ENV`           | The environment in which the server is running (e.g., "development", "production"). | `development`               | No       |
-| `OPENAI_API_BASE_URL`| The base URL for the OpenAI API.                                                    | `http://localhost:11434/v1` | No       |
-| `OPENAI_API_KEY`     | The API key for authenticating with the OpenAI API.                                 | None                        | No       |
-| `OPENAI_MODEL_NAME`  | The name of the OpenAI model to use for processing.                                 | `llama3:8b-instruct-q4_K_M` | No       |
+| Variable Name         | Description                                                                         | Default Value                         | Required |
+| --------------------- | ----------------------------------------------------------------------------------- | ------------------------------------- | -------- |
+| `PORT`                | The port on which the server will listen.                                           | `3000`                                | No       |
+| `NODE_ENV`            | The environment in which the server is running (e.g., "development", "production"). | `development`                         | No       |
+| `OPENAI_API_BASE_URL` | The base URL for the OpenAI API.                                                    | `http://localhost:11434/v1`           | No       |
+| `OPENAI_API_KEY`      | The API key for authenticating with the OpenAI API.                                 | None                                  | No       |
+| `OPENAI_MODEL_NAME`   | The name of the OpenAI model to use for processing.                                 | `llama3:8b-instruct-q4_K_M`           | No       |
+| `API_ENDPOINT`        | The endpoint of the simulation API                                                  | "https://stab.feuerwehr-coesfeld.dev" |

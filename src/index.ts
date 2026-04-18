@@ -1,10 +1,8 @@
-import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
-import { validator } from "hono/validator";
-import z from "zod";
 import { parsePDF } from "./parse";
 import { extractUnits } from "./units";
 import { extractPointsOfInterest } from "./poi";
+import { parseAlarmFromCache, sendVehiclesToApi } from "./simulation";
 
 const app = new Hono();
 
@@ -36,5 +34,21 @@ app.post(
     return c.json({ units, location } as any);
   },
 );
+
+app.post("/alarm", async (c) => {
+  const parsedAlarm = await parseAlarmFromCache("foo");
+  //TODO: actually parse the file and get the hash, then look up in cache
+
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
+  sendVehiclesToApi(
+    parsedAlarm?.vehicles! as any,
+    parsedAlarm?.location.coords
+      .split(",")
+      .map((coord) => parseFloat(coord.trim())) as any,
+  );
+
+  return c.json({ success: true });
+});
 
 export default app;
