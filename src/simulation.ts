@@ -139,13 +139,27 @@ export async function sendVehiclesToApi(
     if (!existingVehicles.some((ev: any) => ev.name === v.frn)) {
       console.log(`Sending vehicle ${vehicle.name} to API...`);
 
-      await fetch(`${API_ENDPOINT}/vehicles`, {
+      const res = await fetch(`${API_ENDPOINT}/vehicles`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(vehicle),
       });
+
+      if (!res.ok) {
+        console.error(
+          `Failed to send vehicle ${v.frn} to API:`,
+          res.statusText,
+        );
+        continue; // Skip task assignment if vehicle creation failed
+      }
+
+      // Extract the server-generated ID from the response
+      const createdVehicle = await res.json();
+      id = (createdVehicle as any).id;
+
+      console.log(`Created vehicle with server ID ${id}`);
     } else {
       console.log(
         `Vehicle with FRN ${v.frn} already exists in API, skipping. Finding id`,
