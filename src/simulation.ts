@@ -193,6 +193,8 @@ export async function sendVehiclesToApi(
     const travelTimeHours = distanceToTarget / (vehicle.speedKph / 60);
     const travelTimeSeconds = travelTimeHours * 60 * 60;
 
+    const fakeTravelTimeMinutes = 5 + Math.floor(Math.random() * 10); // between 5 and 15 minutes
+
     // between 4 and 8 minutes
     const waitTimeSeconds = (4 + Math.floor(Math.random() * 4)) * 60;
 
@@ -217,7 +219,7 @@ export async function sendVehiclesToApi(
             latitude: target[0],
             longitude: target[1],
           },
-          durationSeconds: Math.floor(travelTimeSeconds),
+          durationSeconds: Math.floor(fakeTravelTimeMinutes * 60),
         },
         {
           type: "signalEvent",
